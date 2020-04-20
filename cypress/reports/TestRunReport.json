@@ -1,0 +1,221 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 7,
+    "passes": 7,
+    "pending": 0,
+    "failures": 0,
+    "start": "2020-04-20T15:59:29.868Z",
+    "end": "2020-04-20T16:00:57.562Z",
+    "duration": 87694,
+    "testsRegistered": 7,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "f652aacb-ac05-4d8b-8c4d-85b237e497d2",
+      "title": "",
+      "fullFile": "cypress/integration/cucumber-tests/DSLCalculator.feature",
+      "file": "cypress/integration/cucumber-tests/DSLCalculator.feature",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "85870d62-eedd-477d-8828-8233be0f6378",
+          "title": "DSL Calculator",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "DSL Result List - verify result list (example #1)",
+              "fullTitle": "DSL Calculator DSL Result List - verify result list (example #1)",
+              "timedOut": null,
+              "duration": 21323,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "d0df9bee-4772-44d2-b2a8-3a686b2b8eb7",
+              "parentUUID": "85870d62-eedd-477d-8828-8233be0f6378",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "DSL Result List - verify result list (example #2)",
+              "fullTitle": "DSL Calculator DSL Result List - verify result list (example #2)",
+              "timedOut": null,
+              "duration": 15056,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "9cd5e89b-9634-4bbd-90e1-cd37c08bbfc1",
+              "parentUUID": "85870d62-eedd-477d-8828-8233be0f6378",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "DSL Result List - verify result list (example #3)",
+              "fullTitle": "DSL Calculator DSL Result List - verify result list (example #3)",
+              "timedOut": null,
+              "duration": 13073,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c4951753-eaff-4ac0-9e14-f17af7736a9a",
+              "parentUUID": "85870d62-eedd-477d-8828-8233be0f6378",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "DSL Result List - verify result list (example #4)",
+              "fullTitle": "DSL Calculator DSL Result List - verify result list (example #4)",
+              "timedOut": null,
+              "duration": 10077,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "c7cceb5c-5394-4244-8a1f-b3cf30f5cb99",
+              "parentUUID": "85870d62-eedd-477d-8828-8233be0f6378",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "DSL Result List - verify result list (example #5)",
+              "fullTitle": "DSL Calculator DSL Result List - verify result list (example #5)",
+              "timedOut": null,
+              "duration": 8802,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "8eab4226-c6a5-4370-8cbf-dfdf5dcb91e3",
+              "parentUUID": "85870d62-eedd-477d-8828-8233be0f6378",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Result List - verify Offer detail page",
+              "fullTitle": "DSL Calculator Result List - verify Offer detail page",
+              "timedOut": null,
+              "duration": 6686,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "b091dee5-f638-4874-a592-84d8b961f2b3",
+              "parentUUID": "85870d62-eedd-477d-8828-8233be0f6378",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "Lazy loading/pagination for loading the Result List",
+              "fullTitle": "DSL Calculator Lazy loading/pagination for loading the Result List",
+              "timedOut": null,
+              "duration": 9204,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "const state = window.testState;\nreturn cy\n  .then(() => state.onStartScenario(scenario, indexedSteps))\n  .then(() =>\n    resolveAndRunBeforeHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() =>\n    indexedSteps.forEach(step => stepTest.call(this, state, step, rowData))\n  )\n  .then(() =>\n    resolveAndRunAfterHooks.call(this, scenario.tags, state.feature.name)\n  )\n  .then(() => state.onFinishScenario(scenario));",
+              "err": {},
+              "uuid": "646eaa59-a6bf-4172-86df-d790fc583d1d",
+              "parentUUID": "85870d62-eedd-477d-8828-8233be0f6378",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d0df9bee-4772-44d2-b2a8-3a686b2b8eb7",
+            "9cd5e89b-9634-4bbd-90e1-cd37c08bbfc1",
+            "c4951753-eaff-4ac0-9e14-f17af7736a9a",
+            "c7cceb5c-5394-4244-8a1f-b3cf30f5cb99",
+            "8eab4226-c6a5-4370-8cbf-dfdf5dcb91e3",
+            "b091dee5-f638-4874-a592-84d8b961f2b3",
+            "646eaa59-a6bf-4172-86df-d790fc583d1d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 84221,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "6.2.3"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "TestRunReport",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.1.0"
+    },
+    "marge": {
+      "options": {
+        "charts": true,
+        "html": true,
+        "json": true,
+        "reportDir": "cypress/reports",
+        "reportFilename": "TestRunReport",
+        "overwrite": true
+      },
+      "version": "5.1.0"
+    }
+  }
+}

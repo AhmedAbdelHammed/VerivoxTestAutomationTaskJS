@@ -1,0 +1,12 @@
+{
+    "projectId": "a7bq2k",
+    "reporter": "mochawesome",
+    "reporterOptions": {
+        "charts": true,
+        "html": true,
+        "json": true,
+        "reportDir": "cypress/reports",
+        "reportFilename": "TestRunReport",
+        "overwrite": true 
+    }
+}
